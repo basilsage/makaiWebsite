@@ -1,13 +1,9 @@
 .App {
-  font-family: Roboto;
+  font-family: "Roboto";
   text-align: left;
-  /* display: flex; */
-  flex-direction: column;
-  justify-content: space-between;
   line-height: 1.35;
   font-size: 2rem;
-  margin: 5rem;
-  flex: 1;
+  margin: 4rem;
   overflow-x:hidden;
 }
 
@@ -23,6 +19,8 @@ hr {
 
 .myBody {
   font-size: 1.5rem;
+  font-weight: 200;
+  /* font-family: Roboto; */
   text-align: left;
   /* width: 66%; */
   color: #5A5A5A;

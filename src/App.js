@@ -8,7 +8,7 @@ function App() {
 
       <div className='topSection'>
         <div className='myHeader'>
-          <img width="300" src={mainLogo}></img>
+          <img width="250" src={mainLogo}></img>
         </div>
 
         <div className='myDivider'>
