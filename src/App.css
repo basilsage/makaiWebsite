@@ -1,5 +1,38 @@
 .App {
-  text-align: center;
+  font-family: Roboto;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  line-height: 1.35;
+  font-size: 2rem;
+  margin: 5rem;
+  flex: 1;
+}
+
+hr {
+  /* color: #5A5A5A; */
+  border: 0.5px solid #5A5A5A;
+}
+
+.myBody {
+  font-size: 1.5rem;
+  text-align: left;
+  /* width: 66%; */
+  color: #5A5A5A;
+}
+
+.bottomSection {
+  position: absolute;
+  bottom: 30px;
+  width: 100%;
+}
+
+.myFooter {
+  font-size: 1.25rem;
+  text-align: left;
+  width: 66%;
+
 }
 
 .App-logo {

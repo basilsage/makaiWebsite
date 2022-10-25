@@ -1,23 +1,30 @@
 import logo from './logo.svg';
+import mainLogo from'./figmaLogo.png';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+      <div className='topSection'>
+        <div className='myHeader'>
+          <img width="350" src={mainLogo}></img>
+        </div>
+
+        <div className='myDivider'>
+          <hr></hr>
+        </div>
+
+        <div className='myBody'>
+          <p>We are a leading international tax consulting firm, specialized in CPG companies.</p>
+        </div>
+      </div>
+      <div className='bottomSection'>
+        <div className='myFooter'>
+          <p>dysatoda@gmail.com</p>
+        </div>
+      </div>
+      
     </div>
   );
 }
