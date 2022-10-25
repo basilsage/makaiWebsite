@@ -16,7 +16,7 @@ function App() {
         </div>
 
         <div className='myBody'>
-          <p>We are a leading international tax consulting firm, specialized in CPG companies.</p>
+          <p>We are a leading international tax consulting firm, specialized in CPG companies. Past clients include <a href="https://k2snow.com/">K2</a> and <a href="https://www.newellbrands.com/">Newell Brands</a>.</p>
         </div>
       </div>
       <div className='bottomSection'>
