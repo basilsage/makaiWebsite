@@ -1,14 +1,14 @@
 .App {
   font-family: Roboto;
   text-align: left;
-  display: flex;
+  /* display: flex; */
   flex-direction: column;
   justify-content: space-between;
   line-height: 1.35;
   font-size: 2rem;
   margin: 5rem;
   flex: 1;
-  overflow-x: hidden;
+  overflow-x:hidden;
 }
 
 a {

@@ -8,7 +8,7 @@ function App() {
 
       <div className='topSection'>
         <div className='myHeader'>
-          <img width="350" src={mainLogo}></img>
+          <img width="300" src={mainLogo}></img>
         </div>
 
         <div className='myDivider'>
@@ -16,7 +16,7 @@ function App() {
         </div>
 
         <div className='myBody'>
-          <p>We are a leading international tax consulting firm, specialized in CPG companies. Past clients include <a href="https://k2snow.com/">K2</a> and <a href="https://www.newellbrands.com/">Newell Brands</a>.</p>
+          <p>Leading international tax advisory, specialized in CPG companies with global scale. Past clients include <a href="https://k2snow.com/">K2</a> and <a href="https://www.newellbrands.com/">Newell Brands</a>.</p>
         </div>
       </div>
       <div className='bottomSection'>
