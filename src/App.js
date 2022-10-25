@@ -5,6 +5,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
+      
 
       <div className='topSection'>
         <div className='myHeader'>
@@ -18,7 +19,10 @@ function App() {
         <div className='myBody'>
           <p>Leading international tax advisory, specialized in CPG companies with global scale. Past clients include <a href="https://k2snow.com/">K2</a> and <a href="https://www.newellbrands.com/">Newell Brands</a>.</p>
         </div>
+
       </div>
+
+
       <div className='bottomSection'>
         <div className='myFooter'>
           <p>dysatoda@gmail.com</p>

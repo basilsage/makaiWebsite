@@ -1,5 +1,7 @@
-html, body {
-  overflow-x: hidden !important;
+html, body { overflow: hidden !important; }
+
+body {
+  position: relative
 }
 
 .App {
@@ -7,11 +9,11 @@ html, body {
   text-align: left;
   line-height: 1.35;
   font-size: 2rem;
-  margin: 4rem;
+  /* margin: 4rem; */
   
-  /* margin-left: 4rem;
-  margin-top: 4rem;
-  max-width: 100%; */
+  margin-left: 3rem;
+  margin-top: 3rem;
+  max-width: 100%;
 
 }
 
@@ -31,19 +33,23 @@ hr {
   /* font-family: Roboto; */
   text-align: left;
   color: #5A5A5A;
+  max-width: 80%;
+  min-width: 80%;
 }
 
 .bottomSection {
-  position: absolute;
-  bottom: 30px;
+  position: relative !important;
+  /* bottom: 30px !important; */
   width: 100%;
 }
 
 .myFooter {
+  position: fixed !important;
   font-size: 1.25rem;
+  bottom: 0;
+  margin-bottom: 3rem;
   text-align: left;
   width: 66%;
-
 }
 
 .App-logo {
