@@ -1,10 +1,18 @@
+html, body {
+  overflow-x: hidden !important;
+}
+
 .App {
   font-family: "Roboto";
   text-align: left;
   line-height: 1.35;
   font-size: 2rem;
   margin: 4rem;
-  overflow-x:hidden;
+  
+  /* margin-left: 4rem;
+  margin-top: 4rem;
+  max-width: 100%; */
+
 }
 
 a {
@@ -22,7 +30,6 @@ hr {
   font-weight: 200;
   /* font-family: Roboto; */
   text-align: left;
-  /* width: 66%; */
   color: #5A5A5A;
 }
 
